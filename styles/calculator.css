@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+    background:hsl(0, 0%, 98%);
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    align-items: center;
+  }
+
+  
+  /* Style the navigation menu */
+  .navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  /* Style the Nav links */
+  .navmenu a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  /* Change color on hover */
+  .navmenu a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .navmenu a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.user-img {
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 5px 0 0;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    max-width: 500px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   }
+
+   .display-box {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+   }
+
+   .button {
+    color: white;
+    width: 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50%;
+    height: 70%;
+    outline: none;
+   }
+
+   .button:hover {
+    background-color: #534f4f;
+    }
+    .button:active {
+    background-color: #bbbcbe;
+    }

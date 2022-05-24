@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+    background:hsl(0, 0%, 98%);
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    align-items: center;
+  }
+
+  .describe {
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style the navigation menu */
+   .navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  /* Style the Nav links */
+  .navmenu a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  /* Change color on hover */
+  .navmenu a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .navmenu a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+.user-img {
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 20px 0 0;
+}
+
+  /* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+}
+
+/* Left column */
+.column.left {
+  width: 50%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 25%;
+}
+
+/* Right column */
+.column.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.left, .column.right, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

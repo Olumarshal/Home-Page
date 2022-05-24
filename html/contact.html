@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/contact.css" rel="stylesheet" type="text/css" />
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+    <div class="navmenu">
+        <a href="../index.html">About Me</a>
+        <a class="active" href="#contact">Contact</a>
+      <a href="calculator.html">Calculator</a>
+          <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <img src="../image/mars.jpg" class="user-img" alt="user image" />
+    </div>
+  
+    <div class="container">
+        <form>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" placeholder="Full name.." required>
+
+            <label for="email">Enter your email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <label for="priority">Priority</label>
+            <select name="priority" id="priority">
+                <option value="">Priority level</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+               <option value="very high">Very High</option>
+            </select>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

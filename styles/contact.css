@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+    background:hsl(0, 0%, 98%);
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    align-items: center;
+  }
+
+  
+  /* Style the navigation menu */
+  .navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  /* Style the Nav links */
+  .navmenu a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  /* Change color on hover */
+  .navmenu a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .navmenu a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+.user-img {
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 5px 0 0;
+}
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email], select, textarea {
+    background:  #f1f1f1;
+    width: 70%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    display: block;
+    border: 1px; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  
+  /* Change styles for input fields on extra small screens */
+  @media screen and (max-width: 300px) {
+    input[type=text], input[type=email], textarea, select {
+        width: 350px;
+    }
+  }
