@@ -92,3 +92,7 @@
     .button:active {
     background-color: #bbbcbe;
     }
+
+    .equal:hover {
+      opacity: 0.8;
+    }
